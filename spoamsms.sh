@@ -14,8 +14,8 @@ do
        echo "[2] Laporkan Ada BUG"
        echo "[00] Keluar/EXIT"
        echo "  ================="
-echo -n "Masukan Pilihannya NGAB :"
-read pil;
+echo -n "Masukan Pilihannya NGAB"
+read "Pilih ;"
 if [ $pil = '1' ] || [ $pil = '01' ]
 then
        curl -sX GET "https://id.jagreward.com/member/verify-mobile/$Nomor"
