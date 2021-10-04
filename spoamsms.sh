@@ -1,7 +1,7 @@
 #!/bin/bash
 
-figlet Selamat Datang | lolcat
-figlet Wahai Manusia | lolcat
+figlet Halo | lolcat
+figlet Manusia| lolcat
 date | lolcat
 sleep 2
 clear
@@ -14,7 +14,7 @@ do
        echo "[2] Laporkan Ada BUG"
        echo "[00] Keluar/EXIT"
        echo "  ================="
-echo -n "Masukan Pilihannya NGAB :" pil:
+echo -n "Masukan Pilihannya NGAB :"
 read pil;
 if [ $pil = '1' ] || [ $pil = '01' ]
 then
